@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Porte folio CNPS</title>
+  </head>
+  <body>
+    <!-- <header>
+      <h1>DIGITAL</h1>
+      <h2>Consulting</h2>
+      <img src="images/logo.png" alt="Photo de profile" />
+    </header> -->
+    <nav>
+      <ul>
+
+        <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-gradient  rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+          <!-- <li>
+            <img src="images/logo.png" alt="Photo de profile" />
+          </li> -->
+          <li>
+            <a href="#">
+              <h1>DIGITAL</h1>
+              <h2>Consulting</h2>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"></button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"></button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="index.html">
+                <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Accueil</button>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="entreprise.html">
+                <button class="nav-link active rounded-5" id="entreprise-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Entreprise</button>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="services.html">
+                <button class="nav-link active rounded-5" id="services-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Services</button>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="realisation.html">
+                <button class="nav-link active rounded-5" id="realisations-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Realisations</button>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="contact.html">
+                <button class="nav-link active rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Contact</button>
+            </a>
+          </li>
+        
+          <table>
+            <tr>
+              <td>
+                <li colspan="2">
+                  <section id="accueil">
+                  <h1><a href="">NOUS CONTACTEZ</br></br><p>+ 235 60 ** ** **</p></h1>
+                  </section>
+                </li>
+              </td>
+              <td>
+                <li colspan="6">
+                  <div class="picture">
+                    <img
+                    src="images/photos/entreprise.png"
+                    alt="image du projet"
+                    />
+                  </div>
+                </li>
+              </td>
+  
+            </tr>
+          </table>
+        </ul>
+        <lu>
+         
+        </lu>
+        <!-- <li><a href="index.html">Accueil</a></li>
+        <li><a href="#">Entreprise</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Realisations</a></li>
+        <li><a href="#">Contact</a></li>
+          -->
+        </ul>
+        
+   
+      
+
+    </nav>
+    <div class="container">
+      
+      <!-- Liste des projets -->
+      <section id="projets" >
+        <h1>VOTRE ENTREPRISE DIGITAL</h1>
+        <p>Prenez contact avec nous dès aujourd’hui, quelle que soit votre demande. 
+            Que vous cherchiez des réponses, souhaitiez résoudre un problème ou simplement nous 
+            faire part de vos commentaires, vous trouverez ici de nombreux moyens de nous contacter. </br></br>
+
+
+        </p> 
+        <div id="projects" >
+
+          <div class="project" >
+
+            <form action="contact.php" method="post">
+              <table border="0" witdh="30%">
+                <tr><td>
+              <fieldset>
+                <legend><b>Saisissez vos coordonnées </b></legend>
+            <table border="0" >
+              <tr>
+                <td><b>Nom :</b></td>
+                <td><input type="text" name="nom" placeholder="Votre nom"/></td>
+              </tr>
+              <tr>
+                <td><b>Prénom : </b></td>
+                <td> <input type="text" name="prenom" placeholder="Votre prenom"/></td>
+              </tr>
+              <tr>
+                  <td><b>Email : </b></td>
+                  <td> <input type="text" name="mail" placeholder="Votremail@gmail.com"/></td>
+              </tr>
+              <tr>
+                  <td><b>Date de naissance : </b></td>
+                  <td> <input type="date" name="birthday" placeholder="Votre naissance" /></td>
+                </tr>
+              <tr>
+                <td><b>Genre : </b></td>
+                <td>
+                  <label>
+                    <input type="radio" name="sexe" value="F" checked/> Femme
+                  </label>
+                  <label>
+                    <input type="radio" name="sexe" value="H" /> Homme
+                  </label>
+                </td>
+              </tr>
+              <!-- <tr>
+                <td>Service :</td>
+                <td>
+                    <select name="service">
+                      <option value="PVID" >PVID</option>
+                      <option value="Informatique" selected="selected">Informatique</option>
+                      <option value="ATMP">ATMP</option>
+                      <option value="PFM" >PFM</option>
+                      <option value="DFC">DFC</option>
+                      <option value="DARH">DARH</option>
+                    </select>
+                </td>
+              </tr> -->
+          <!--     <tr>
+                  <label>Votre adresse</label>
+                  <textarea name="adresse"> </textarea>
+              </tr> -->
+          
+              <tr>
+                  <td><b>Préférence :</b></td>
+                  <td>
+                      <input type="checkbox" name="preference"/> Informatique
+                      <input type="checkbox" name="preference"/> Finance </br>
+                      <input type="checkbox" name="preference"/> Litterature
+                      <input type="checkbox" name="preference"/> Musique
+                  </td>
+              </tr>
+          
+          
+          
+          
+          
+          
+          
+              <tr>
+                <td><b><br>CONFIRMER VOS COORDONNEES</b></td>
+                <td><br><input type="submit" value="ENVOI DE LA DEMANDE" /></td>
+              </tr>
+            </table>
+              </fieldset>
+            </td></tr></table>
+              </form>
+
+
+          </div>
+
+          <div class="project">
+            <div>
+              <span>NOS COORDONNEES</span></br></br></br></br></br></br></br></br>
+              <span id="date-project">
+                  Email: Contact@digitalconsulting.td </br>
+                  Phone: +235 6 ** ** ** ** </br>
+                  Rue de 50 mètres, N'Djamena.
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="bg-gradient">
+      <h1>Contact</h1>
+        
+        <ul>
+          <li><a href="#"></a>digital.consulting@gmail.com</li>
+          <li><a href="#"></a>DIGITAL CONSULTING , Rue de 50 mètres, N'Djamena</li>
+          <li><a href="#">+235 6*******</a></li>
+        </ul>
+      <span>&copy; 2024 Digital Consulting <a href="https://cnps-tchad.com"></span
+      >
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

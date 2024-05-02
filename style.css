@@ -1,0 +1,136 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(34, 123, 161, 0.815);
+}
+ header {
+  background-color: #0A6ABB;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  border-bottom: 2px solid white;
+} 
+header img {
+  width: 100px;
+  height: 100px;
+}
+header h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+/* nav {
+  text-align: right;
+
+  background-color: #0A6ABB ;
+  border-bottom: 2px solid black;
+} */
+
+ a {
+  text-decoration: none;
+  color: #fff;
+  /* font-size: 24px; */
+  text-transform: uppercase;
+}
+span{
+  color: #fff;
+}
+legend{
+  color: #fff;
+  text-transform: uppercase;
+}
+table{
+  color: #fff;
+}
+p{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+a:hover {
+  color: #3188c2ac;
+  background-color: #0A6ABB;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+section {
+  border: 0px solid black;
+  border-radius: 15px;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+section h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+footer {
+  /* background-color:#0A6ABB; */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+#accueil p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.project {
+  width: 400px;
+  height: auto;
+  margin: 25px;
+  border: 1px solid #0A6ABB;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  transition: all 0.4s ease-in-out 0s;
+}
+.project:hover {
+  box-shadow: 10px 5px 10px #0792e9;
+  opacity: 0.7em;
+  transform: translate(0, -0.2em);
+}
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.picture {
+  margin-bottom: 15px;
+}
+.project span {
+  text-align: center;
+  display: block;
+  font-weight: 700;
+}
+.picture img {
+  width: 400px;
+  height: 266px;
+}
+
+/* section h1::before {
+  content: "« ";
+}
+section h1::after {
+  content: "  »";
+} */
+#contact {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #0A6ABB;
+}
+#contact h1 {
+  padding-bottom: 15px;
+}
